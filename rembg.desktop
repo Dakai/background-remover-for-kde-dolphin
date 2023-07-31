@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin,image/jpeg,image/png;
+Actions=removeBackGround;
+MimeType=image/jpeg,image/jpeg,image/png
+
+
+[Desktop Action removeBackGround]
+Name=Rembg
+Exec=/usr/local/bin/rembg_script.sh %U
+Icon=preferences-desktop-wizard
